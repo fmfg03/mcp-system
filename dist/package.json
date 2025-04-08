@@ -1,0 +1,15 @@
+{
+  "name": "mcp-system-landing",
+  "version": "1.0.0",
+  "description": "Landing page for the MCP System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.0.0",
+    "serve-static": "^1.15.0"
+  }
+}

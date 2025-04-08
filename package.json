@@ -1,0 +1,30 @@
+{
+  "name": "mcp_system",
+  "version": "1.0.0",
+  "description": "Multi-Client Protocol system for collaborative website development using LLMs",
+  "main": "src/server/server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js",
+    "client": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "mcp",
+    "llm",
+    "claude",
+    "chatgpt",
+    "collaborative",
+    "website",
+    "development"
+  ],
+  "author": "",
+  "license": "ISC"
+}
