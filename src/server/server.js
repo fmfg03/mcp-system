@@ -13,7 +13,7 @@ dotenv.config();
 // Import configuration
 const config = process.env.NODE_ENV === 'production' 
   ? require('../config/production')
-  : require('../config/development');
+  : require('../../config/development');
 
 // Initialize Express app
 const app = express();
